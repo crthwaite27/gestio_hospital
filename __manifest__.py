@@ -1,17 +1,19 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "gestio_hospital",
+    'name': "Gestio Hospital",
 
-    'summary': """
-        Short (1 phrase/line) summary of the module's purpose, used as
-        subtitle on modules listing or apps.openerp.com""",
+    'summary': """Eina de gestio d'hospitals""",
 
-    'description': """
-        Long description of module's purpose
+    'description': """La eina pot gestionar diferents hospitals, a partir de:
+        -Hospital
+        -Pacient -> Historial -> Visita -> Malaltia
+        -Persona
+        -Metge
+        -Adreça
     """,
 
-    'author': "My Company",
-    'website': "http://www.yourcompany.com",
+    'author': "Cristofol Lluis Rivas I Thwaite",
+    'website': "http://www.copernic.cat",
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/11.0/odoo/addons/base/module/module_data.xml
@@ -32,4 +34,5 @@
     'demo': [
         'demo/demo.xml',
     ],
+    'installable': True,
 }
