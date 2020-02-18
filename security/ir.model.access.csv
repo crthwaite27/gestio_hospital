@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_gestio_hospital_gestio_hospital,gestio_hospital.gestio_hospital,model_gestio_hospital_gestio_hospital,,1,0,0,0
